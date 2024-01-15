@@ -1,0 +1,106 @@
+/* LandingPage.css */
+.landing-page {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-image: url("../../assets/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    border-radius: 50%;
+  }
+
+  /* .logo{
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+  } */
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .event-details {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .details-card {
+    flex: 1;
+    max-width: 300px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 5px;
+  }
+  
+  .details-card h2 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .details-card p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .product-features {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .product-features h2 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .product-features ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-features li {
+    font-size: 1.2em;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .cta-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    color: #666;
+  }
+  
